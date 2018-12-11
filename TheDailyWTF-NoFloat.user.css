@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name         TheDailyWTF.com - Disable floating header
+@version      1.0
+@description  Disables the floating header bar on TheDailyWTF.com
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/TheDailyWTF-NoFloat.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document url-prefix("https://thedailywtf.com/articles/") {
+#wrapper .content-container#navigation {
+    position: unset;
+}
+
+#wrapper .content-container#navigation-bumper {
+    height: unset;
+}
+}
