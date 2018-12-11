@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         InoReader - Larger Article Text
+@version      1.0.0
+@description  A recent update shrunk InoReader's article text to 11px from 14px, this undoes that. 
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/InoReader-LargerArticleText.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("www.inoreader.com") {
+.article_content {
+    font-size: 14px !important;
+}
+}
