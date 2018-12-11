@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         PocketCasts Beta - Lower min-width
+@version      1.0.0
+@description  Reduce the min-width of the page layout from 960px to 800px, allowing a smaller window to be used (for example, half of a 1920x1080 screen with a vertical taskbar). Below roughly 770px the layout begins to distort, but it's still perfectly usable at 800px.
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/PocketCastsBeta-LowerMinWidth.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("playbeta.pocketcasts.com") {
+.layout {
+    min-width: 800px;
+}
+}
