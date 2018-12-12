@@ -1,0 +1,24 @@
+/* ==UserStyle==
+@name         Mastodon - Themed Thin Scrollbars
+@version      1.0.0
+@description  Theme the scrollbars of various Mastodon instances using the new scrollbar CSS properties in FireFox
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/Mastodon-ThemedThinScrollbars.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("cybre.space") {
+* {
+    scrollbar-color: #222222 rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+}
+}
+
+@-moz-document domain("eldritch.cafe") {
+* {
+    scrollbar-color: #423a50 rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+}
+}
