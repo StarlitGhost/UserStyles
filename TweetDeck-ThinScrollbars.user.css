@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name         TweetDeck - Thin Coloured Scrollbars
+@version      1.0.0
+@description  Colour the TweetDeck scrollbars using the new scrollbar CSS in FireFox
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/TweetDeck-ThinScrollbars.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+@-moz-document domain("tweetdeck.twitter.com") {
+.column-scroller {
+    scrollbar-color: #AAB8C2 #1C2938;
+    scrollbar-width: thin;
+}
+}
