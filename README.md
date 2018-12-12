@@ -12,3 +12,4 @@ Install via Stylus by clicking the links below. Supports automatic updates!
 📦 [PocketCasts Beta - Lower Min Width](https://github.com/StarlitGhost/UserStyles/raw/master/PocketCastsBeta-LowerMinWidth.user.css)<br>
 📦 [TheDailyWTF.com - Disable Floating Header](https://github.com/StarlitGhost/UserStyles/raw/master/TheDailyWTF-NoFloat.user.css)<br>
 📦 [TweetDeck - Thin Coloured Scrollbars](https://github.com/StarlitGhost/UserStyles/raw/master/TweetDeck-ThinScrollbars.user.css)<br>
+📦 [Mastodon - Themed Thin Scrollbars](https://github.com/StarlitGhost/UserStyles/raw/master/Mastodon-ThemedThinScrollbars.user.css)<br>
