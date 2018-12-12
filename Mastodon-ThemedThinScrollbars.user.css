@@ -22,3 +22,10 @@
     scrollbar-width: thin;
 }
 }
+
+@-moz-document domain("gravitas.cafe") {
+* {
+    scrollbar-color: #313543 rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+}
+}
