@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name         InoReader - Themed Thin Scrollbars
+@version      1.0.0
+@description  Theme the scrollbars of InoReader using the new scrollbar CSS properties in Firefox
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/InoReader-ThemedThinScrollbars.user.css
+@license      CC-BY-SA-4.0
+==/UserStyle== */
+
+@-moz-document domain("inoreader.com") {
+* {
+    scrollbar-color: #3b3b3b rgba(0, 0, 0, 0.1);
+    scrollbar-width: thin;
+}
+}
