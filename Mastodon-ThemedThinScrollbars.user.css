@@ -23,7 +23,7 @@
 }
 }
 
-@-moz-document domain("gravitas.cafe") {
+@-moz-document domain("botsin.space"), domain("gravitas.cafe") {
 * {
     scrollbar-color: #313543 rgba(0, 0, 0, 0.1);
     scrollbar-width: thin;
