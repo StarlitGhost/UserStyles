@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name         Soverin - Dark Theme
+@version      1.0.0
+@description  A dark theme for Soverin web-mail
+@namespace    https://github.com/StarlitGhost/UserStyles
+@author       StarlitGhost
+@homepageURL  https://github.com/StarlitGhost/UserStyles
+@supportURL   https://github.com/StarlitGhost/UserStyles/issues
+@updateURL    https://raw.githubusercontent.com/StarlitGhost/UserStyles/master/Soverin-DarkTheme.user.css
+@license      CC-BY-SA-4.0
+@advanced color highlight-bg-color "Highlight background color" #0075c8
+@advanced color highlight-text-color "Highlight text color" #fff
+@advanced color selected-bg-color "Selected background color" #333
+@advanced color selected-text-color "Selected text color" #eee
+==/UserStyle== */
+
+@-moz-document domain("mail.soverin.net") {
+body, #header, #mainscreen {
+    background-color: #000;
+    color: #ccc;
+}
+#topline, #topnav {
+    background-color: /*[[highlight-bg-color]]*/;
+    color: /*[[highlight-text-color]]*/;
+}
+#taskbar a.button-selected {
+    border-bottom-color: /*[[highlight-bg-color]]*/;
+    filter: brightness(125%);
+}
+#taskbar a:hover {
+    border-bottom-color: /*[[highlight-bg-color]]*/;
+    filter: brightness(125%);
+}
+.uibox .listing thead td, .uibox .listing thead th, .uibox .boxtitle, .contentbox .boxtitle, body.iframe .boxtitle {
+    background-color: /*[[highlight-bg-color]]*/;
+}
+.uibox .boxtitle, .uibox .listing thead td, .uibox .listing thead th {
+    color: /*[[highlight-text-color]]*/ !important;
+}
+.listbox .listitem.selected, .listbox .tablink.selected, .listbox .listitem.selected > a, .listbox .tablink.selected > a, .listing tbody tr.unfocused td, .listing tbody tr.selected td, .listing li.selected, .listing li.selected > a {
+    background-color: /*[[selected-bg-color]]*/;
+    color: /*[[selected-text-color]]*/;
+}
+}

@@ -12,5 +12,6 @@ Install via Stylus by clicking the links below. Supports automatic updates!
 📦 [InoReader - Themed Thin Scrollbars](https://github.com/StarlitGhost/UserStyles/raw/master/InoReader-ThemedThinScrollbars.user.css) (hopefully will become obsolete)<br>
 📦 [Mastodon - Themed Thin Scrollbars](https://github.com/StarlitGhost/UserStyles/raw/master/Mastodon-ThemedThinScrollbars.user.css) (hopefully will become obsolete)<br>
 📦 [PocketCasts Beta - Lower Min Width](https://github.com/StarlitGhost/UserStyles/raw/master/PocketCastsBeta-LowerMinWidth.user.css)<br>
+📦 [Soverin - Dark Theme](https://github.com/StarlitGhost/UserStyles/raw/master/Soverin-DarkTheme.user.css)<br>
 📦 [TheDailyWTF.com - Disable Floating Header](https://github.com/StarlitGhost/UserStyles/raw/master/TheDailyWTF-NoFloat.user.css)<br>
 📦 [TweetDeck - Thin Coloured Scrollbars](https://github.com/StarlitGhost/UserStyles/raw/master/TweetDeck-ThinScrollbars.user.css) (hopefully will become obsolete)<br>
